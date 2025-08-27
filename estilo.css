@@ -44,11 +44,16 @@ body {
     margin-left: 270px;
     padding: 20px;
 }
+h1{
+    text-align: center;
+    color: #111111;
+}
 
-h1 {
-    color: #ffffff;
+h2 {
+  color: #111111;
 }
 
 p {
-    color: #ffffff;
+  color: #111111;
+  text-align: justify;
 }
