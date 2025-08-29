@@ -45,7 +45,7 @@ body {
     padding: 20px;
 }
 h1{
-    text-align: center;
+    text-align:center;
     color: #111111;
 }
 
@@ -56,4 +56,60 @@ h2 {
 p {
   color: #111111;
   text-align: justify;
+}
+
+.botao {
+    display: inline-block;
+    padding: 20px 60px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none
+}
+.botao:hover {
+    background-color: #000000;
+}
+
+.contato {
+    max-width: 400px;          
+    margin: 20px auto;         
+    padding: 20px;
+    background: #515151;       
+    border-radius: 8px;       
+    font-family: Arial, sans-serif;
+}
+
+.contato label {
+    display: block;            
+    margin-bottom: 5px;       
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.contato input,.contato textarea {
+    width: 90%;               
+    padding: 10px;
+    margin-bottom: 15px;       
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contato textarea {
+    height: 100px;
+    resize: vertical;          
+}
+
+.contato button {
+    width: 100%;
+    padding: 12px;
+    background: #fdfdfd;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contato button:hover {
+    background: #cbcbcb;
 }
